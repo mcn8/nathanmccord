@@ -4,15 +4,17 @@ body{background-image:url(fog2.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	cursor:url(facecursor.png);}
-h2#header{color:white;
+div.header{color:white;
 	font-family:arial;
 	padding:10px;
 	margin-top:-8px;
 	margin-left:-8px;
 	margin-right:-8px;
 	background-color:#449BB8;
-	border-bottom:#306E82 2px solid;
-	/*border:green 3px double;*/}
+	border-bottom:#306E82 2px solid;}
+ul{list-style-type:none;
+	margin:0;
+	padding:0;}
 p{line-height:125%;
 	padding:10px;
 	border:90px;}
