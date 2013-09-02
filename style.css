@@ -1,13 +1,18 @@
 body{background-image:url(fog2.jpg);
-	background-size:100% 500%;
-	background-repeat:no-repeat;}
-h2#header{color:#1959E3;
+	background-size:100% 100%;
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	cursor:url(facecursor.png);}
+h2#header{color:white;
 	font-family:arial;
 	padding:10px;
 	margin-top:-8px;
 	margin-left:-8px;
 	margin-right:-8px;
-	background-color:#C7EBE2;
-	border-bottom:black 2px solid;
+	background-color:#449BB8;
+	border-bottom:#306E82 2px solid;
 	/*border:green 3px double;*/}
-p{line-height:125%;}
+p{line-height:125%;
+	padding:10px;
+	border:90px;}
