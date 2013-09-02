@@ -1,12 +1,13 @@
 body{background-image:url(fog2.jpg);
 	background-size:100% 500%;
 	background-repeat:no-repeat;}
-h2{text-align:center;
-	color:#1959E3;
+h2#header{color:#1959E3;
 	font-family:arial;
-	padding:15px;
-	margin-left:520px;
-	margin-right:520px;
-	background-color:#D1CFCB;
-	border:green 3px double;}
+	padding:10px;
+	margin-top:-8px;
+	margin-left:-8px;
+	margin-right:-8px;
+	background-color:#C7EBE2;
+	border-bottom:black 2px solid;
+	/*border:green 3px double;*/}
 p{line-height:125%;}
