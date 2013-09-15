@@ -3,6 +3,7 @@ body{background-image:url(halffog.png);
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+	background-color:black;
 }
 div.header{color:white;
 	font-family:arial;
@@ -17,9 +18,13 @@ div.header{color:white;
 	transition:1s;
 }
 
-/*div.header:hover{
-	padding-bottom:100px;
-}*/
+div.footer{position:absolute;
+	bottom:-30px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-left:31%;
+	padding-right:31%;
+}
 
 ul{list-style-type:none;
 	margin:0px;
@@ -52,8 +57,15 @@ li.socialMedia{
 	display:block;
 }
 
-a.navbar{color:white;
+a{
 	text-decoration: none;
+}
+
+a:visited{
+	color:#00B8F0;
+}
+
+a.navbar{color:white;
 	display:block;
 
 }
@@ -70,7 +82,7 @@ div{line-height:125%;
 	border:90px;
 	margin:30px;
 	margin-top:15px;
-	background-color:rgba(255, 255, 255, 0.4);
+	background-color:rgba(255, 255, 255, 0.15);
 	border-radius:15px;
 	position:relative;
 	overflow:hidden;
@@ -90,6 +102,20 @@ div.main{
 	margin-left:0px;
 }
 
+div.contact{
+	font-family:arial;
+	font-size:20px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#85ACC7;
+	opacity:0.7;
+	width:50%;
+	float:right;
+	margin-top:-10px;
+	margin-left:0px;
+	left:-20%;
+}
+
 h2#header{
 	color:#E4F2F1;
 	margin:3px;
@@ -102,4 +128,21 @@ p{color:white;
 	text-align:center;
 	padding:2px;
 	margin:2px;
+	display:inline-block;
+}
+
+p#about{
+	text-align:left;
+	float:right;
+	position:absolute;
+	top:100px;
+	margin-right:450px;
+}
+
+img#me{
+	height:25%;
+	width:25%;
+	float:right;
+	margin:30px;
+	margin-right:40px;
 }
