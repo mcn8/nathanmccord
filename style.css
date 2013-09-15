@@ -6,16 +6,21 @@ body{background-image:url(halffog.png);
 }
 div.header{color:white;
 	font-family:arial;
-	padding:10px;
-	margin-top:-8px;
+	padding:3px;
+	margin-top:4px;
 	margin-left:-8px;
 	margin-right:-8px;
-	background-color:#449BB8;
+	background-color:rgba(255, 255, 255, 0.0);
 	border-bottom:#306E82 2px solid;
 	border-radius:0px;
 	overflow:visible;
-	background-image:url(test.png)
+	transition:1s;
 }
+
+/*div.header:hover{
+	padding-bottom:100px;
+}*/
+
 ul{list-style-type:none;
 	margin:0px;
 	padding:0px;
@@ -26,38 +31,35 @@ ul{list-style-type:none;
 
 ul.socialMedia{
 	float:left;
+	border-left:none;
+	margin-top:16px;
 }
 
 li{	text-decoration:none;
 	font-size:36px;
-	margin:-4px;
-	padding:4px;
+	margin:0px;
+	padding:6px;
 	display:inline-block;
+	transition:0.3s;
 }
 
-li:hover{-webkit-transform:rotate (-20deg) scale(1.2);}
-
-li.navbar{
-	border-right:solid;
-	border-bottom:solid;
-	border-color:black;
-	border-width:2px;
-	border-color:#7ECCC7;
-	border-bottom-right-radius:10px;
+li.navbar:hover{-webkit-transform: rotate(-15deg) scale(1.7);
+-ms-transform: rotate(-15deg) scale(1.7);
+transform: rotate(-15deg) scale(1.7);
 }
 
-a{color:white;
+li.socialMedia{
+	display:block;
+}
+
+a.navbar{color:white;
 	text-decoration: none;
+	display:block;
 
 }
 
-a:hover{color:#A1F0EA;
+a.navbar:hover{color:#A1F0EA;
 		text-shadow:-1px 1px 8px #77EDE4;
-}
-a#noPDF{
-	color:blue;
-	text-decoration:underline;
-	text-shadow:0px 0px 0px #77EDE4;
 }
 
 div{line-height:125%;
@@ -82,6 +84,10 @@ div.main{
 	border-width:2px;
 	border-color:#85ACC7;
 	opacity:0.7;
+	width:91%;
+	float:right;
+	margin-top:-10px;
+	margin-left:0px;
 }
 
 h2#header{
