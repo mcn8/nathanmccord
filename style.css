@@ -1,4 +1,6 @@
-body{background-image:url(halffog.png);
+html{height:100%;}
+body{height:100%;
+	background-image:url(halffog.png);
 	background-size:100% 100%;
 	background-position:top right;
 	background-repeat:no-repeat;
@@ -18,7 +20,7 @@ div.header{color:white;
 	transition:1s;
 }
 
-div.footer{position:absolute;
+div.footer{
 	bottom:-30px;
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
@@ -26,7 +28,7 @@ div.footer{position:absolute;
 	padding-right:31%;
 }
 
-ul{list-style-type:none;
+ul{	list-style-type:none;
 	margin:0px;
 	padding:0px;
 	border-radius:15px;
@@ -145,4 +147,14 @@ img#me{
 	float:right;
 	margin:30px;
 	margin-right:40px;
+}
+
+span{height:100%;
+	min-height:100%;
+	margin-bottom: -330px;
+	position: relative;
+}
+
+.clear{visibility:hidden;
+	height:100%;
 }
